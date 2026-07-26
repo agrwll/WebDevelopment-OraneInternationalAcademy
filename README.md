@@ -1,125 +1,125 @@
-# Orane International Beauty & Wellness Academy Website
+# Digital Presence Enhancement for Orane International Beauty & Wellness Academy
+### Badarpur Franchise, New Delhi
 
-## 📌 Project Overview
-
-This project is an **AI-assisted responsive website prototype** developed for **Orane International Beauty & Wellness Academy, Badarpur**, as part of the **Social Internship Program** at KIET Group of Institutions.
-
-The primary objective of this project is to demonstrate how digital technology can enhance the online presence of a local educational institution by providing essential information about its infrastructure, training facilities, contact details, and learning environment through a modern, user-friendly website.
+> ⚠️ **Academic Disclaimer:** This website was prepared as part of a **first-year B.Tech Social Internship** in the Web Development domain. It documents the real Badarpur franchise of **Orane International Beauty & Wellness Academy** for educational purposes only. It is **not the official website** of Orane International and should not be used for real admissions, payments, or business communication.
 
 ---
 
-## 🎯 Objectives
+## Project Objective
 
-- Develop a responsive website prototype for the academy.
-- Improve digital accessibility for prospective students.
-- Present information about the academy's facilities and services.
-- Demonstrate the role of technology in supporting local educational institutions.
-- Apply AI-assisted development tools responsibly for educational purposes.
+To design a simple, modern, responsive multi-page website for the Badarpur franchise of Orane International Beauty & Wellness Academy, so that local students can easily learn about its courses, facilities, and admissions process — while demonstrating how AI-assisted web development can support a local vocational training institute in building an informative digital presence.
 
 ---
 
-## 🌟 Features
+## About This Project
 
-- Responsive and modern user interface
-- Home, About, Facilities, Gallery, and Contact pages
-- Academy information and training facilities
-- Image gallery showcasing the academy
-- Contact details and working hours
-- Embedded Google Maps location
-- Mobile-friendly design
-- Clean navigation and consistent layout
+This is not a commercial software engineering project. It was built by a first-year B.Tech student with no prior professional web development background, as part of a Social Internship. The workflow relied heavily on **AI-assisted development** (using ChatGPT and Claude for planning and code generation), combined with **manual review, content organization, and customization** so that the final website accurately reflects the real academy — its address, contact details, courses, and campus facilities.
 
 ---
 
-## 🛠️ Technologies Used
+## Development Process
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- AI-assisted development tools
+1. **Requirement Gathering** — Understanding the academy's courses, facilities and communication needs.
+2. **Academy Visit** — Visiting the Badarpur campus to observe facilities and take reference photographs.
+3. **Content Collection** — Gathering accurate course, contact and facility information.
+4. **Website Planning** — Mapping out pages, navigation, and visual identity.
+5. **AI-assisted Website Generation** — Using AI tools to scaffold the initial HTML, CSS and JavaScript.
+6. **Manual Customization** — Reviewing and editing content, layout and imagery to match the real academy.
+7. **Testing & Review** — Checking responsiveness, accessibility and content accuracy across devices.
+8. **Documentation** — Preparing this README and the accompanying Project Report.
 
 ---
 
-## 📂 Project Structure
+## Features
+
+- 7 responsive pages: Home, About, Courses, Facilities, Gallery, Admissions, Contact
+- Real photographs of the Badarpur campus (reception, labs, classrooms, corridor, building exterior) instead of stock imagery
+- Sticky, blur-on-scroll navigation bar with animated mobile menu
+- Scroll-reveal animations for sections and cards
+- Filterable course catalogue (Beginner / Advanced)
+- FAQ accordion
+- 5-step admission process tracker
+- Admission enquiry form and contact form with client-side validation
+- Embedded Google Maps location and a WhatsApp click-to-chat button
+- Dark mode toggle (saved via `localStorage`)
+- Back-to-top button
+- Semantic, accessible HTML5 markup
+- Custom CSS3 (Flexbox + Grid) — no Bootstrap, no Tailwind
+- Vanilla JavaScript — no frameworks, no jQuery
+
+---
+
+## Technologies Used
+
+| Category         | Tool / Technology                    |
+|-------------------|--------------------------------------|
+| AI Assistance     | ChatGPT, Claude                      |
+| Code Editor       | Visual Studio Code                   |
+| Markup            | Basic HTML5                          |
+| Styling           | Basic CSS3                           |
+| Behaviour         | Basic JavaScript                     |
+| Graphics support  | Canva                                |
+| Browser (testing) | Google Chrome                        |
+| Fonts             | Google Fonts — Poppins & Montserrat  |
+| Images            | Original photographs of the Badarpur campus |
+
+No paid tools, backend frameworks, or databases were used — this is a static front-end demonstration site.
+
+---
+
+## Folder Structure
 
 ```
 orane-academy/
 │
-├── index.html
-├── about.html
-├── facilities.html
-├── gallery.html
-├── contact.html
+├── index.html            # Home page
+├── about.html             # About Us page
+├── courses.html           # Courses page
+├── facilities.html        # Facilities page (real campus photos)
+├── gallery.html           # Photo gallery page
+├── admissions.html        # Admissions page
+├── contact.html           # Contact page
 │
 ├── css/
-│   └── style.css
+│   └── style.css          # All site styling
 │
 ├── js/
-│   └── main.js
+│   └── main.js            # All site interactivity
 │
 ├── assets/
-│   ├── images/
-│   └── logo/
+│   └── images/            # Real academy photographs used across the site
 │
-└── README.md
+├── README.md
+├── PROJECT-REPORT.md
+└── SCREENSHOT-GUIDE.md
 ```
 
 ---
 
-## 📍 Organization Details
+## How to Run
 
-**Orane International Beauty & Wellness Academy, Badarpur**
+**Option 1 — Open directly**
+1. Download / extract the `orane-academy` folder.
+2. Double-click `index.html` — it will open in your default browser.
 
-**Address:**
+**Option 2 — Local server (recommended)**
+1. Open the folder in VS Code.
+2. Install the "Live Server" extension.
+3. Right-click `index.html` → **Open with Live Server**.
 
-Chandermal Complex, E-9, Near Badarpur Police Station,
-Dharamveer Market, Budh Bihar,
-Block A, Tajpur Pahari Village,
-Badarpur, New Delhi – 110044
-
-**Phone:** +91 8882300773
-
-**Email:** oraneinternationalbadarpur@gmail.com
+No build steps, no `npm install`, no dependencies required — it's a static site.
 
 ---
 
-## 💡 Project Highlights
+## Future Improvements
 
-- Information architecture designed for ease of navigation.
-- Academy photographs incorporated to provide an authentic representation of the infrastructure.
-- Responsive layout compatible with desktop, tablet, and mobile devices.
-- Clean and accessible interface suitable for educational institutions.
-
----
-
-## 📖 Learning Outcomes
-
-Through this project, the following skills were developed:
-
-- Website planning and content organization
-- Responsive web design principles
-- Digital communication
-- Problem-solving and debugging
-- User interface design
-- AI-assisted website development workflow
+- Connect the enquiry/contact forms to a real backend so submissions are actually stored and emailed
+- Add a student login portal to track batch schedules and attendance
+- Add multi-language support (Hindi/English toggle) for wider local accessibility
+- Add a blog/resources section with beauty & wellness career tips
 
 ---
 
-## ⚠️ Disclaimer
+## Credits
 
-This website is an **AI-assisted academic prototype** developed solely for educational purposes as part of the Social Internship Program. It is intended to demonstrate digital solutions for enhancing the online presence of a local educational institution and is not an official commercial website.
-
----
-
-## 👨‍🎓 Developed By
-
-**Krishna Aggarwal**
-
-B.Tech Student
-
-KIET Group of Institutions
-
-Social Internship Project (2025–26)
-
----
+Prepared by a first-year B.Tech student as part of a **Social Internship — Web Development domain**, using an AI-assisted development workflow (requirement gathering, planning, AI-assisted code generation) followed by manual customization, content organization, responsive testing, and documentation.
